@@ -1,0 +1,10 @@
+[Unit]
+Description=Management of guests additions services for Kaisen live systems
+
+[Service]
+Type=oneshot
+Environment="PATH=/sbin:/bin:/usr/sbin:/usr/bin"
+ExecStart=/usr/share/kaisen-live-guest-additions/kaisen-live-guest-additions
+
+[Install]
+WantedBy=multi-user.target
