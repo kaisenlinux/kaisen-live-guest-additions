@@ -1,3 +1,11 @@
+kaisen-live-guest-additions (1.1) kaisen-packages; urgency=medium
+
+  * Add the avahi-daemon.socket as unit file at disabled
+  * When VMWare, QEMU or Virtualbox are used, all guests are disabled (enforcing)
+  * Add the extension of the unit file to uniformize the code
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 16 Nov 2022 10:51:46 +0100
+
 kaisen-live-guest-additions (1.0) kaisen-packages; urgency=medium
 
   * Initial release
