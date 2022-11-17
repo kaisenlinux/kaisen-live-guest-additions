@@ -1,3 +1,9 @@
+kaisen-live-guest-additions (1.2) kaisen-packages; urgency=medium
+
+  * Enforce the activation and the start of daemons when a hypervisor is detected
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 17 Nov 2022 08:53:23 +0100
+
 kaisen-live-guest-additions (1.1) kaisen-packages; urgency=medium
 
   * Add the avahi-daemon.socket as unit file at disabled
